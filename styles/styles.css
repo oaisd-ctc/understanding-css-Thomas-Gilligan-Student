@@ -1,7 +1,13 @@
+@font-face {
+    font-family: blockyFont;
+    src: url(../BlockyFont.ttf);
+}
+
 body {
     background-color: coral;
 }
-.para {
+p.para {
+    font-family: blockyFont;
     margin-top: 20%;
     text-indent: 10%;
 }
@@ -13,4 +19,7 @@ h1:hover {
 }
 li.special:hover {
     color: white;
+}
+li#third {
+    font-family: blockyFont;
 }
