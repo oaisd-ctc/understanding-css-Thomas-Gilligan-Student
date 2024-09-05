@@ -8,3 +8,9 @@ body {
 li {
     font-size: medium;
 }
+h1:hover {
+    background-color: white;
+}
+li.special:hover {
+    color: white;
+}
